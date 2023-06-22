@@ -1,14 +1,24 @@
-
-
-  #team .main {
+#team .main {
     clip-path: inset(14rem 0rem 0rem 0rem);
     margin-top: -14rem;
+}
 
-  }
+#team .main img {
+    border-radius: 100% 0% 100% 0% / 0% 76% 24% 100%;
+}
 
-  
-  #team .main img{
-    border-radius: 100% 0% 100% 0% / 0% 76% 24% 100% ;
+#teamPhoto .main {
+    width: 60%;
+    clip-path: inset(3rem 0rem 10rem 0rem);
+    margin-top: -3rem;
+    margin-bottom: -10rem;
+}
 
-  }
+#mainTeam .main {
+    width: 60%;
+    clip-path: inset(8rem 0rem 5rem 0rem);
+    margin-top: -8rem;
+    margin-bottom: -5rem;
+}
 
+#mainTeam .main img {}
